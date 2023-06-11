@@ -53,7 +53,7 @@
     <UnityVersion>2020.3.27f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Inguz Media Studio\Free 2D Impact FX\Demo Scene\ButtonAnimation.cs" />
+    <Compile Include="Assets\Script\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\Monster.cs" />
     <Compile Include="Assets\Script\PlayerHealth.cs" />
     <Compile Include="Assets\Script\PlayerDash.cs" />
@@ -68,7 +68,6 @@
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
     <Compile Include="Assets\Script\EnemyShooter.cs" />
     <Compile Include="Assets\Inguz Media Studio\Free 2D Impact FX\Script\SelfDestruct.cs" />
-    <Compile Include="Assets\Inguz Media Studio\Free 2D Impact FX\Demo Scene\DemoManager.cs" />
     <Compile Include="Assets\Script\EnemyScript.cs" />
     <Compile Include="Assets\Script\ButtonController.cs" />
     <Compile Include="Assets\Script\GameMenu.cs" />
@@ -79,13 +78,9 @@
     <Compile Include="Assets\Script\Gamemanager.cs" />
     <Compile Include="Assets\Script\gamemenubutton.cs" />
     <Compile Include="Assets\Script\JumpMovement.cs" />
+    <Compile Include="Assets\Script\EnemyDriection.cs" />
     <Compile Include="Assets\Script\gunshot.cs" />
     <Compile Include="Assets\Scripts\MeleeAttack.cs" />
-    <Compile Include="Assets\Script\NewBehaviourScript.cs" />
-    <Compile Include="Assets\Script\EnemyDriection.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Inguz Media Studio\Free 2D Impact FX\Demo Scene\Righteous-Regular OFLicence.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

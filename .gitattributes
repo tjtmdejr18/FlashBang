@@ -3,3 +3,4 @@
 BulidFile/MapMaking_Data/sharedassets3.assets.res5 filter=lfs diff=lfs merge=lfs -text
 BulidFile/MapMaking_Data/sharedassets3.assets.resS filter=lfs diff=lfs merge=lfs -text
 .resS filter=lfs diff=lfs merge=lfs -text
+.zip filter=lfs diff=lfs merge=lfs -text

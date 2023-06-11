@@ -27,6 +27,7 @@ public class Enemy : MonoBehaviour
         float dis = transform.position.x - target.position.x;
         if(dis > 0)
         {
+
             transform.localScale = new Vector3(-1, 1, 1);
         }else if(dis < 0)
         {

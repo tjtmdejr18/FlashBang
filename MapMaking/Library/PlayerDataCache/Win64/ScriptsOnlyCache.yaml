@@ -26,10 +26,15 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineVirtualCamera
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
+    Unity.2D.Animation.Runtime.dll:
+    - UnityEngine.U2D.Animation.BufferManager
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -248,156 +253,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 1839735485
       Script: {instanceID: 0}
-    Assets/Scenes/GameStage2.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 50
-      Script: {instanceID: 0}
-    - Class: 58
-      Script: {instanceID: 0}
-    - Class: 60
-      Script: {instanceID: 0}
-    - Class: 66
-      Script: {instanceID: 0}
-    - Class: 70
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 628}
-    - Class: 114
-      Script: {instanceID: 2230}
-    - Class: 114
-      Script: {instanceID: 2254}
-    - Class: 114
-      Script: {instanceID: 2378}
-    - Class: 114
-      Script: {instanceID: 2728}
-    - Class: 114
-      Script: {instanceID: 2798}
-    - Class: 114
-      Script: {instanceID: 2870}
-    - Class: 114
-      Script: {instanceID: 3068}
-    - Class: 114
-      Script: {instanceID: 3316}
-    - Class: 114
-      Script: {instanceID: 4390}
-    - Class: 114
-      Script: {instanceID: 5002}
-    - Class: 114
-      Script: {instanceID: 5616}
-    - Class: 114
-      Script: {instanceID: 6042}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 120
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 232
-      Script: {instanceID: 0}
-    - Class: 19719996
-      Script: {instanceID: 0}
-    - Class: 156049354
-      Script: {instanceID: 0}
-    - Class: 483693784
-      Script: {instanceID: 0}
-    - Class: 1839735485
-      Script: {instanceID: 0}
-    Assets/Scenes/GameStage3.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 50
-      Script: {instanceID: 0}
-    - Class: 58
-      Script: {instanceID: 0}
-    - Class: 60
-      Script: {instanceID: 0}
-    - Class: 66
-      Script: {instanceID: 0}
-    - Class: 70
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 628}
-    - Class: 114
-      Script: {instanceID: 2230}
-    - Class: 114
-      Script: {instanceID: 2254}
-    - Class: 114
-      Script: {instanceID: 2378}
-    - Class: 114
-      Script: {instanceID: 2728}
-    - Class: 114
-      Script: {instanceID: 2798}
-    - Class: 114
-      Script: {instanceID: 2870}
-    - Class: 114
-      Script: {instanceID: 3068}
-    - Class: 114
-      Script: {instanceID: 3316}
-    - Class: 114
-      Script: {instanceID: 4390}
-    - Class: 114
-      Script: {instanceID: 5002}
-    - Class: 114
-      Script: {instanceID: 5616}
-    - Class: 114
-      Script: {instanceID: 6042}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 120
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 232
-      Script: {instanceID: 0}
-    - Class: 19719996
-      Script: {instanceID: 0}
-    - Class: 156049354
-      Script: {instanceID: 0}
-    - Class: 483693784
-      Script: {instanceID: 0}
-    - Class: 1839735485
-      Script: {instanceID: 0}
     Assets/Scenes/Key.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -541,12 +396,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: SpriteSkin
-  - hash:
-      serializedVersion: 2
-      Hash: 4b8592c98f0932d300efda4366497f57
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ButtonAnimation
   - hash:
       serializedVersion: 2
       Hash: 44b981e443b5f9f84ac029d480675a98
@@ -1101,12 +950,6 @@ ScriptsOnlyBuild:
     className: AudioPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 1752ebc61eba34c26abaa58fe75075e3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DemoManager
-  - hash:
-      serializedVersion: 2
       Hash: 7c792393fb82488bd20139dcc5ba26d8
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -1483,6 +1326,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/CINEMA.unity
   - Assets/Scenes/Key.unity
   - Assets/Scenes/GameStage1.unity
-  - Assets/Scenes/GameStage2.unity
-  - Assets/Scenes/GameStage3.unity
-  playerPath: E:/FlashBang/FlashBang/BuildFile/MapMaking.exe
+  playerPath: E:/FlashBang/FlashBang/BuildFile/FlashBang.exe
